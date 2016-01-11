@@ -1,0 +1,15 @@
+{
+  "documentation" : "reviews associated with movies in the favorites table",
+  "fields" : [
+  {
+  "documentation": "Reviews for the movie",
+  "name": "movie_review",
+  "type": "String"
+  },
+    {
+      "documentation": "Movie ID for this review",
+      "name": "movie_id",
+      "type" : "String"
+    }
+    ]
+}

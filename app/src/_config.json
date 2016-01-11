@@ -1,0 +1,13 @@
+{
+  "syntaxVersion": 3,
+  "projectPackageId": "com.mycompany.project1popularmoviesstage1",
+  "authority": "com.mycompany.project1popularmoviesstage1.provider",
+  "providerJavaPackage": "com.mycompany.project1popularmoviesstage1.provider",
+  "providerClassName": "MoviesProvider",
+  "sqliteOpenHelperClassName": "MoviesSQLiteOpenHelper",
+  "sqliteOpenHelperCallbacksClassName": "MoviesSQLiteOpenHelperCallbacks",
+  "databaseFileName": "movies.db",
+  "databaseVersion": 1,
+  "enableForeignKeys": true,
+  "useAnnotations": true
+}

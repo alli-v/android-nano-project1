@@ -1,0 +1,42 @@
+{
+  "documentation": "A user's currently visible movie in the grid.",
+  "fields": [
+    {
+      "documentation": "Unique ID in moviedb API",
+      "name": "movie_id",
+      "type": "String"
+    },
+    {
+      "documentation": "Title of the movie",
+      "name": "movie_title",
+      "type": "String"
+    },
+    {
+      "documentation": "Poster image path for the movie",
+      "name": "poster_img",
+      "type": "String"
+    },
+    {
+      "documentation": "Movie overview text",
+      "name": "movie_overview",
+      "type": "String"
+    },
+    {
+      "documentation": "Movie release date",
+      "name": "movie_release_date",
+      "type": "String"
+    },
+    {
+      "documentation": "Average user rating for the movie",
+      "name": "movie_avg_rating",
+      "type": "String"
+    }
+  ],
+
+  "constraints": [
+    {
+      "name": "unique_id",
+      "definition": "UNIQUE (movie_id) ON CONFLICT REPLACE"
+    }
+  ]
+}

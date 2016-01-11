@@ -1,0 +1,15 @@
+{
+"documentation" : "trailers associated with movies in the favorites table",
+"fields": [
+  {
+    "documentation": "Trailers and video for the movie",
+    "name": "movie_trailer",
+    "type": "String"
+  },
+  {
+    "documentation": "Movie ID for this trailer",
+    "name": "movie_id",
+    "type" : "String"
+  }
+  ]
+}
